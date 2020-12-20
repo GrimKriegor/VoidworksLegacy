@@ -1,0 +1,11 @@
+[ENABLE]
+{$lua}
+local t=createTimer()
+t.Interval=5000
+t.OnTimer=function()
+  memrec.Active=false
+  t.destroy()
+end
+OpenProcess("DarkSoulsIII.exe")
+injectDLL("G:\\Development\\voidworks.dll");
+[DISABLE]

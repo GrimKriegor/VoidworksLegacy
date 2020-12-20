@@ -1,0 +1,42 @@
+add_subdirectory(adapter)
+
+set(HEADERS
+  ${HEADERS}
+  ${CMAKE_CURRENT_SOURCE_DIR}/addresses.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/animation.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/anticheat.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/boss.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/bullet.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/bullet_tracker.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/camera.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/character.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/debug.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/dll_wrapper.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/effect.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/equipment.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/hook.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/input.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/item.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/menu.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/options.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/packet.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/packet_handler.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/packet_struct.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/param.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/param_classes.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/player.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/position.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/process.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/protection.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/protection_handler.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/session.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/session_watcher.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/sound.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/subroutine.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/subroutine_manager.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/target.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/throw.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/window.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/world.h
+  PARENT_SCOPE
+)

@@ -1,0 +1,8 @@
+build/
+*.dll
+*.so
+*.o
+*.dot
+*.ps
+.ale_*
+.ccls*

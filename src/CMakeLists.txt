@@ -1,0 +1,42 @@
+add_subdirectory(adapter)
+
+set(SOURCES
+  ${SOURCES}
+  ${CMAKE_CURRENT_SOURCE_DIR}/animation.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/anticheat.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/boss.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/bullet.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/bullet_tracker.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/camera.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/character.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/common.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/debug.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/dll_wrapper.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/dll_wrapper.s
+  ${CMAKE_CURRENT_SOURCE_DIR}/effect.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/equipment.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/hook.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/input.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/item.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/menu.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/options.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/packet.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/packet_handler.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/param.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/param_classes.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/player.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/position.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/process.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/protection.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/protection_handler.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/session.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/session_watcher.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/sound.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/subroutine.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/subroutine_manager.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/target.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/throw.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/window.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/world.cpp
+  PARENT_SCOPE
+)
